@@ -1,0 +1,7 @@
+{
+  "name": "crwizard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
