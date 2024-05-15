@@ -1,22 +1,28 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
+import SignupForm from '../components/ExploreContainer';
 
 const Home: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage  >
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle  >
+            <img src='../../public/logo.jpeg' style={{
+              width: '100px'
+            }} />
+
+          </IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <SignupForm />
       </IonContent>
     </IonPage>
   );

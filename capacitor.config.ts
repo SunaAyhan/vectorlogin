@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'ionic.crwizard',
-  appName: 'crwizard',
+  appId: 'ionic.Vector Resourcing',
+  appName: 'Vector Resourcing',
   webDir: 'dist'
 };
 
